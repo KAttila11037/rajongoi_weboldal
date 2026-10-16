@@ -3,8 +3,7 @@
     background-color: black;
     color: white;
     padding: 5px;
-    margin-left: 1100px;
-    margin-right: 1100px;
+    
 }
 
 .h2 {
@@ -12,19 +11,9 @@
     background-color: black;
     color: white;
     padding: 5px;
-    margin-left: 1180px;
-    margin-right: 1180px;
+    
+    
 }
-
-
-    div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-  
-}
-
 
 .text {
     font-size: 20px;
@@ -36,15 +25,18 @@
 
 .text2 {
      font-size: 20px;
-    
+    text-align: center;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 .text3 {
     font-size: 20px;
-     background-color: black;
+    background-color: black;
     color: white;
     padding: 5px;
-      margin-right: 2325px;
+    display: inline-block; 
+    margin-top: 15px;      
 }
 
 .h3 {
@@ -52,11 +44,34 @@
     background-color: black;
     color: white;
     padding: 5px;
-    margin-left: 1000px;
-    margin-right: 1000px;
 }
 
 .text4 {
      font-size: 20px;
     text-align: center;
+}
+
+img {
+     border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    background-color: white; 
+    max-width: 960px;        
+    width: 100%;             
+    margin: 0 auto;          
+    padding: 20px;           
+    box-sizing: border-box;  
+    min-height: 100vh;       
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
 }
